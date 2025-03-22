@@ -1,0 +1,25 @@
+ul {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+    margin: 10px;
+}
+li a {
+    color:  #e7e171;
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px 15px;
+    transition: background 0.3s, transform 0.2s;
+    display: inline-block;
+  }
+li a:hover {
+    background-color: #2e1b1b;
+    transform: scale(1.1);
+  }
+
