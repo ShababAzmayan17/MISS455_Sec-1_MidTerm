@@ -30,12 +30,12 @@ body {
   }
 header, footer {
     background-color: #333;
-    color: white;
+    color: rgb(255, 252, 205);
     text-align: center;
     padding: 20px;
 }
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
     padding: 20px;
     background: white;
@@ -52,14 +52,14 @@ header, footer {
     text-align: center;
 }
 .form{
-display: flex; 
-flex-direction: column; 
-gap: 10px;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
 }
 .inClass{
     padding: 8px; 
     border-radius: 5px;
-     border: 1px solid #ccc;
+    border: 1px solid #ccc;
 }
 .inMessage{
     padding: 8px; 
@@ -68,12 +68,10 @@ gap: 10px;
 }
 
 textarea{
-resize: none;
-padding: 10px; 
-background color: white; 
-border: none;
-cursor: pointer;
+    resize: none;
+    padding: 10px; 
 }
+
 .butC{
     padding: 10px; 
     background-color: #444; 
@@ -84,4 +82,18 @@ cursor: pointer;
     cursor: pointer;
     width: 100px;
     align-self: center;
+}
+.butH{
+    padding: 10px; 
+    background: #333; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
+}
+.butP{
+    padding: 8px; 
+    background: #28a745; 
+    color: white; 
+    border: none; 
+    cursor: pointer;
 }
